@@ -1,0 +1,86 @@
+Starting server...
+
+R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> shiny::runApp("./", port=8888, host="0.0.0.0")
+Loading required package: shiny
+
+Listening on http://0.0.0.0:8888
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/src/contrib/reticulate_1.13.tar.gz'
+Content type 'application/x-gzip' length 1477406 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘reticulate’ ...
+** package ‘reticulate’ successfully unpacked and MD5 sums checked
+** libs
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c event_loop.cpp -o event_loop.o
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libpython.cpp -o libpython.o
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c output.cpp -o output.o
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c python.cpp -o python.o
+g++  -I/usr/share/R/include -DNDEBUG  -I"/usr/local/lib/R/site-library/Rcpp/include"    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readline.cpp -o readline.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o reticulate.so RcppExports.o event_loop.o libpython.o output.o python.o readline.o -L/usr/lib/R/lib -lR
+installing to /usr/local/lib/R/site-library/reticulate/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Error in grDevices::svg(filename = "results/Rplot%03d.svg", onefile = FALSE) : 
+  unable to start device 'svg'
+In addition: Warning message:
+In grDevices::svg(filename = "results/Rplot%03d.svg", onefile = FALSE) :
+  cairo error 'error while writing to output stream'
+* DONE (reticulate)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgONq07/downloaded_packages’
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:shiny’:
+
+    validate
+
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 1 rows containing missing values (geom_path).
+Warning: Removed 19 rows containing missing values (geom_path).

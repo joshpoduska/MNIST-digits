@@ -1,0 +1,72 @@
+2021-10-07 15:42:52,873 PDT  INFO HttpService - HttpService maxConnections: 30 maxConnectionsPerRoute: 10 connectTimeoutSec: 60 readTimeoutSec: 120
+2021-10-07 15:42:53,139 PDT  INFO Domino - ================================================================================
+2021-10-07 15:42:53,141 PDT  INFO Domino - Starting client. BuildID=4.6.0-546eab122bbeca8f3a0d88d242011880196f3e99
+2021-10-07 15:42:53,141 PDT DEBUG Domino - CWD = /Users/joshuapoduska/Documents/Domino/vip/MNIST-digits/MNIST-digits
+2021-10-07 15:42:53,143 PDT  INFO Domino - executing command: init MNIST-digits
+2021-10-07 15:42:53,550 PDT DEBUG ClientControllerProxy - Getting site config from https://field.cs.domino.tech/cliSiteConfig
+2021-10-07 15:42:53,578 PDT DEBUG ApiKeyBasedTransport - Issuing request to https://field.cs.domino.tech/cliSiteConfig (full request = [Request redacted])
+2021-10-07 15:42:54,047 PDT DEBUG AutoUpdaterSettings$ - Setting CLI update source to: https://field.cs.domino.tech/assets/cli/default/versions/updates.xml
+2021-10-07 15:42:54,149 PDT DEBUG ClientControllerProxy - Getting user info from https://field.cs.domino.tech/cliUserInfo
+2021-10-07 15:42:54,229 PDT  INFO Domino - Verifying that the cloud update URL isn't being used.
+2021-10-07 15:42:54,231 PDT  INFO Domino - Cloud update URL not in use.
+2021-10-07 15:42:54,244 PDT  INFO ProjectControllerProxy - Creating project on server
+2021-10-07 15:42:54,349 PDT DEBUG ApacheHttpClientRequest - Got an error: request = ApacheHttpClientRequest(https://field.cs.domino.tech/project,POST,Map(),Map(User-Agent -> domino-cli/4.6.0-546eab122bbeca8f3a0d88d242011880196f3e99, Content-Type -> application/x-www-form-urlencoded, Charset -> UTF-8, Authorization -> Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwVU1CMFd2TEtnYm4tTm9rTzlQbGMya0M2Z3VZa2hrbEpzNldzdzBZVnNzIn0.eyJleHAiOjE2MzM2NDY4NzQsImlhdCI6MTYzMzY0NjU3NCwiYXV0aF90aW1lIjoxNjMzNTU4Njc5LCJqdGkiOiJkMTgyM2ExMS1lZDNhLTQ3YjEtYjFiMC01ZWI4MDQxZDE1NmYiLCJpc3MiOiJodHRwczovL2ZpZWxkLmNzLmRvbWluby50ZWNoL2F1dGgvcmVhbG1zL0RvbWlub1JlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImJhMGFkNDZmLWFmNzgtNDMyNC04MTRmLWZhZWI0ODNkZjNkMSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImRvbWluby1wbGF5Iiwic2Vzc2lvbl9zdGF0ZSI6ImM1NTU4YzUwLWExZDktNGJlYi04ZjgzLWE3NzQ2NDI4N2YxMiIsImFjciI6IjAiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtZG9taW5vcmVhbG0iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiSm9zaCBQb2R1c2thIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiam9zaHBvZHVza2EiLCJnaXZlbl9uYW1lIjoiSm9zaCIsImZhbWlseV9uYW1lIjoiUG9kdXNrYSIsImVtYWlsIjoiam9zaC5wb2R1c2thQGRvbWlub2RhdGFsYWIuY29tIn0.Pa0d6KVk_CgXfE7pPJhtD340y07YPjL_Wyoe4X6_mTBcK_RuHUM-VQvkl7OSK2CMfCXZmFKc4epNtMfxQBri5HIs2qdQvJtJwwx_mgIp565OrxvLCQp3_4W-i3X0mB8N2bZpWK4mK9bPu1JGSzH1joguLXZFhKVjMqIYZwOQzfjmAqBEHFSq9G3zIu1qJEtgQ-xWbx8thy-9fGJ3HlbAC1BZiTq8wJeE_T4wp-fO2RJOoAk14VsKHVnbDZIHFUxY8JbZwdXkwVOeAsMcZrHbjLob1OmLMKW5PNJE_iL0iDvPIsCmMRnR6QLB8BpeQFaeHxC4I9UGAW2VPk2_XE69LQ),120 seconds,60 seconds,true,FormBody(List((projectName,MNIST-digits), (useDefaultIgnoreFile,true), (useDefaultResultsFilterFile,true), (useDefaultDiagnosticStatsFile,true))),domino.common.util.http.HttpService@31bcf236), response: status = 400, statusText = Bad Request, headers = Domino-Server -> List(nginx-ingress,nucleus,), X-Frame-Options -> List(SAMEORIGIN), Play-Processing-Time -> List(20), Connection -> List(keep-alive), Content-Length -> List(61), Cache-Control -> List(no-cache, no-store, must-revalidate, max-age=0), Content-Type -> List(text/plain; charset=UTF-8), Date -> List(Thu, 07 Oct 2021 22:42:54 GMT), body = Cannot create project MNIST-digits because it already exists.
+2021-10-07 15:42:54,352 PDT DEBUG OAuthBasedTransport - Failed after 1/2 attempts: Code: 400, Error: Bad Request, headers: Map(Domino-Server -> List(nginx-ingress,nucleus,), X-Frame-Options -> List(SAMEORIGIN), Play-Processing-Time -> List(20), Connection -> List(keep-alive), Content-Length -> List(61), Cache-Control -> List(no-cache, no-store, must-revalidate, max-age=0), Content-Type -> List(text/plain; charset=UTF-8), Date -> List(Thu, 07 Oct 2021 22:42:54 GMT)), Body: Cannot create project MNIST-digits because it already exists.
+2021-10-07 15:42:54,353 PDT ERROR OAuthBasedTransport - HTTP exception: Code: 400, Error: Bad Request, headers: Map(Domino-Server -> List(nginx-ingress,nucleus,), X-Frame-Options -> List(SAMEORIGIN), Play-Processing-Time -> List(20), Connection -> List(keep-alive), Content-Length -> List(61), Cache-Control -> List(no-cache, no-store, must-revalidate, max-age=0), Content-Type -> List(text/plain; charset=UTF-8), Date -> List(Thu, 07 Oct 2021 22:42:54 GMT)), Body: Cannot create project MNIST-digits because it already exists. body: Cannot create project MNIST-digits because it already exists.
+2021-10-07 15:43:16,138 PDT  INFO HttpService - HttpService maxConnections: 30 maxConnectionsPerRoute: 10 connectTimeoutSec: 60 readTimeoutSec: 120
+2021-10-07 15:43:16,354 PDT  INFO Domino - ================================================================================
+2021-10-07 15:43:16,355 PDT  INFO Domino - Starting client. BuildID=4.6.0-546eab122bbeca8f3a0d88d242011880196f3e99
+2021-10-07 15:43:16,355 PDT DEBUG Domino - CWD = /Users/joshuapoduska/Documents/Domino/vip/MNIST-digits/MNIST-digits
+2021-10-07 15:43:16,357 PDT  INFO Domino - executing command: restore
+2021-10-07 15:43:16,717 PDT DEBUG ClientControllerProxy - Getting site config from https://field.cs.domino.tech/cliSiteConfig
+2021-10-07 15:43:16,745 PDT DEBUG ApiKeyBasedTransport - Issuing request to https://field.cs.domino.tech/cliSiteConfig (full request = [Request redacted])
+2021-10-07 15:43:17,232 PDT DEBUG AutoUpdaterSettings$ - Setting CLI update source to: https://field.cs.domino.tech/assets/cli/default/versions/updates.xml
+2021-10-07 15:43:17,332 PDT DEBUG ClientControllerProxy - Getting user info from https://field.cs.domino.tech/cliUserInfo
+2021-10-07 15:43:17,416 PDT  INFO Domino - Verifying that the cloud update URL isn't being used.
+2021-10-07 15:43:17,418 PDT  INFO Domino - Cloud update URL not in use.
+2021-10-07 15:43:28,221 PDT ERROR ProjectAccessChecker - Error while checking for project access
+play.api.libs.json.JsResultException: JsResultException(errors:List((/mainRepository/uri,List(JsonValidationError(List(error.path.missing),WrappedArray())))))
+	at play.api.libs.json.JsReadable.$anonfun$as$2(JsReadable.scala:25)
+	at play.api.libs.json.JsError.fold(JsResult.scala:66)
+	at play.api.libs.json.JsReadable.as(JsReadable.scala:24)
+	at play.api.libs.json.JsReadable.as$(JsReadable.scala:23)
+	at play.api.libs.json.JsObject.as(JsValue.scala:126)
+	at domino.client.proxy.api.ProjectControllerProxy.get(ProjectControllerProxy.scala:42)
+	at domino.client.command.ProjectAccessChecker.assertUserHasAccessToProject(ProjectAccessChecker.scala:17)
+	at domino.client.command.RestoreCommand.restore(RestoreCommand.scala:22)
+	at domino.client.Domino.executeCommand(Domino.scala:218)
+	at domino.client.Domino$.main(Domino.scala:50)
+	at domino.client.Domino.main(Domino.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.install4j.runtime.launcher.UnixLauncher.start(UnixLauncher.java:66)
+	at install4j.domino.client.Domino.main(Unknown Source)
+2021-10-07 15:43:28,228 PDT ERROR Domino - Error while processing restore, Java version: 1.8.0_232
+java.lang.RuntimeException: Couldn't access the project. Make sure you have access by checking that you can visit https://field.cs.domino.tech/u/joshpoduska/MNIST-digits.
+Try again later and if the problem persists, contact us.
+
+	at domino.client.command.ProjectAccessChecker.triggerUnknownProjectError(ProjectAccessChecker.scala:54)
+	at domino.client.command.ProjectAccessChecker.assertUserHasAccessToProject(ProjectAccessChecker.scala:23)
+	at domino.client.command.RestoreCommand.restore(RestoreCommand.scala:22)
+	at domino.client.Domino.executeCommand(Domino.scala:218)
+	at domino.client.Domino$.main(Domino.scala:50)
+	at domino.client.Domino.main(Domino.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.install4j.runtime.launcher.UnixLauncher.start(UnixLauncher.java:66)
+	at install4j.domino.client.Domino.main(Unknown Source)
+Caused by: play.api.libs.json.JsResultException: JsResultException(errors:List((/mainRepository/uri,List(JsonValidationError(List(error.path.missing),WrappedArray())))))
+	at play.api.libs.json.JsReadable.$anonfun$as$2(JsReadable.scala:25)
+	at play.api.libs.json.JsError.fold(JsResult.scala:66)
+	at play.api.libs.json.JsReadable.as(JsReadable.scala:24)
+	at play.api.libs.json.JsReadable.as$(JsReadable.scala:23)
+	at play.api.libs.json.JsObject.as(JsValue.scala:126)
+	at domino.client.proxy.api.ProjectControllerProxy.get(ProjectControllerProxy.scala:42)
+	at domino.client.command.ProjectAccessChecker.assertUserHasAccessToProject(ProjectAccessChecker.scala:17)
+	... 11 more
